@@ -1,0 +1,68 @@
+
+
+    
+    #taskInput{
+        width:750px;
+        height:75px;
+    }
+        
+    #since{
+        width: 350px;
+    }
+    #until{
+        width: 350px;
+    }
+    #m-m1{
+        color:darkgoldenrod;
+    }
+    #m-m2{
+        color:darkgoldenrod;
+    }
+    #m-m3{
+        color:darkgoldenrod;
+    }
+    #m-m4{
+        color:darkgoldenrod;
+    }
+    #m-m5{
+        color:darkgoldenrod;
+    }
+    #music1{
+        width: 700px;
+    }
+    #music2{
+        width: 700px;
+    }
+    #music3{
+        width: 700px;
+    }
+    #music4{
+        width: 700px;
+    }
+    #music5{
+        width: 700px;
+    }
+    #detail{
+        width: 700px;
+        height: 45px;
+    }
+    #OkButton{
+        text-align:center;
+        width:49px;
+        background-color:rgb(123, 238, 123);
+    }
+    #mozi-task{
+        color:red;
+    }
+    #since-task{
+        color:red;
+    }
+    #until-task{
+        color:red;
+    }
+    #music-task{
+        color:red;
+    }
+    #detail-task{
+        color:red;
+    }

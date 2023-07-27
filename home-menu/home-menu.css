@@ -1,0 +1,66 @@
+.title_flame{
+    display: inline-flex;
+    padding: 8px 48px;
+    align-items: flex-start;
+    gap: 8px;
+    border-radius: 5px;
+    flex-direction: column;
+}
+
+.title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display:flex;
+    justify-content: center;
+}
+
+.title1{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    padding-left: 120px;
+}
+
+.button_flame{
+    display: inline-flex;
+    padding: 16px;
+    align-items: flex-start;
+    gap: 16px;
+    
+    
+}
+
+.button_item{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    border: 1px solid #FFFBFB;
+}
+
+.button-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 50vh;
+
+}
+
+.home_flame{
+    width: 700px;
+    height: 362px;
+    background: #000000;
+    padding-left: 400px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>音楽ファイルアップロード</title>
+  <link rel="stylesheet" href="add-music.css">
+  <link rel="stylesheet" href="../header/header.css">
+</head>
+<body>
+    
+  <header class="site-header">      
+    <ul class="nav__wrapper">
+      <li class="nav__item"><a class="header_tag" href="../home-menu/home-menu.html">ほーむ</a> </li>
+      <li class="nav__item"><a class="header_tag" href="../task-remind/reminder.html">たすく</a></li>
+      <li class="nav__item"><a class="header_tag" href="../task-input/task-input.html">ついか</a></li>
+      <li class="nav__item"><a class="header_tag" href="add-music.html">おんがく</a></li>
+    </ul>
+  </header>
+  
+  
+  <main>
+  <div id="music">
+  <h1>おんがくをいれてね♪</h1>
+    <div id="music-container">
+        <input type="file" name="file" id="fileInput">
+        <button onclick="uploadFile()" class="upload">アップロード</button>
+    </div>
+  </div>
+  </main>
+  
+
+  <script src="add-music.js"></script>
+</body>
+</html>

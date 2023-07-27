@@ -1,0 +1,32 @@
+
+
+#music{
+    width: 60%;
+    height: 200px;
+    border: solid 2px;
+    border-radius: 5px;
+    color:white;
+    padding: 20px 40px;
+}
+
+#music-container{
+    
+    height:30px;
+    
+}
+
+.upload{
+  height:30px;
+  width:100px;
+}
+
+main {
+    min-height: 50vh;
+  
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 40px;
+  }

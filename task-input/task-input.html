@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+ <head>
+    <meta charset="UTF-8"/>
+    <title>入力画面</title>
+    <link rel="stylesheet" href="task-input.css"/>
+    <link rel="stylesheet" href="../header/header.css"/>
+    <script type="text/javascript" src="task-input.js"></script>
+ </head>
+ <body>
+
+      <header class="site-header">
+         <ul class="nav__wrapper">
+            <li class="nav__item"><a class="header_tag" href="../home-menu/home-menu.html">ほーむ</a> </li>
+            <li class="nav__item"><a class="header_tag" href="../task-remind/task-remind.html">たすく</a></li>
+            <li class="nav__item"><a class="header_tag" href="task-input.html">ついか</a></li>
+            <li class="nav__item"><a class="header_tag" href="../add-music/add-music.html">おんがく</a></li>
+         </ul>
+      </header>
+
+
+     <style>
+      .Music select{
+         width:500px;
+      }
+      </style>
+      <div id="mozi-task">タスク</div> 
+      <div><input type="text" id="taskInput" size=100 placeholder="タスクを入力してください ＊必須"></input></div>
+      <div id="since-task">開始日程</div> 
+      <div><input type="datetime-local" id="since" size=100 placeholder="カレンダーから入力してください=>"  ></input>
+      <div id="until-task" >終了日程</div> 
+      <div><input type="datetime-local" id="until" size=100   ></input>  
+      <div id="music-task" >音楽選択</div> 
+      <div id="m-m1"><1回目の音楽></1></div>
+      <div class="Music"><select name="music" id="music1" size="1">
+         <option disabled>音楽を選択してください</option>
+         
+      </select></div>
+      <div id="m-m2"><２回目の音楽></div>
+      <div class="Music"><select name="music" id="music2" size="1">
+         <option disabled>音楽を選択してください</option>
+         
+      </select></div>
+      <div id="m-m3"><３回目の音楽></div>
+      <div class="Music"><select name="music" id="music3" size="1">
+         <option disabled>音楽を選択してください</option>
+         
+      </select></div>
+      <div id="m-m4"><４回目の音楽></div>
+      <div class="Music"><select name="music" id="music4" size="1">
+         <option disabled>音楽を選択してください</option>
+         
+      </select></div>
+      <div id="m-m5"><締切時間の音楽></div>
+      <div class="Music"><select name="music" id="music5" size="1">
+         <option disabled>音楽を選択してください</option>
+
+      </select></div>
+      <p><div  class="OkButton is-primary is-light"><button type="submit" placeholder="" id="OkButton">決定</button></div>></p>> 
+      <a href="something" id="List_Link"><p>Task確認画面→</p></a>
+
+   </body>
+</html>
